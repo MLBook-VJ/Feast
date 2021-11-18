@@ -1,6 +1,5 @@
 from datetime import datetime, timedelta
 import pandas as pd
-from cust_feat import *
 from google.cloud import bigquery
 from feast import FeatureStore, RepoConfig
 
